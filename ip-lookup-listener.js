@@ -20,6 +20,8 @@ function endDialogue(sessionId,text){
 
 function intentCallback(topic, msg){
 	var body = JSON.parse(msg);
+
+	console.log("IP-lookup: intent recieved. Responding." + ip.address());
 	endDialogue(body.sessionId,"My I.P.: " + ip.address());
 }
 

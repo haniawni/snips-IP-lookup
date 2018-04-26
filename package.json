@@ -1,0 +1,30 @@
+{
+  "name": "ip-lookup",
+  "version": "0.0.1",
+  "description": "Snips responder to reply with the local devices' IP address",
+  "main": "ip-lookup-listener.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haniawni/snips-IP-lookup.git"
+  },
+  "keywords": [
+    "snips",
+    "ip",
+    "address",
+    "wearable",
+    "tech"
+  ],
+  "author": "Hani Awni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haniawni/snips-IP-lookup/issues"
+  },
+  "homepage": "https://github.com/haniawni/snips-IP-lookup#readme",
+  "dependencies": {
+    "ip": "^1.1.5",
+    "mqtt": "^2.17.0"
+  }
+}

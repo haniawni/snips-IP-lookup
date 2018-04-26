@@ -15,7 +15,7 @@ var mqtt_options = {
 var client = mqtt.connect(mqtt_options);
 
 function endDialogue(sessionId,text){
-	client.publish('hermes/dialogueManager/endSession',JSON.stringify(resp));
+	client.publish('hermes/dialogueManager/endSession',JSON.stringify(text));
 }
 
 function intentCallback(topic, msg){
